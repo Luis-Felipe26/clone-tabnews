@@ -41,5 +41,5 @@ function getSSLValues() {
     };
   }
 
-  return process.env.POSTGRES_NODE_ENV === "production" ? true : false;
+  return process.env.NODE_ENV === "production" ? true : false;
 }
